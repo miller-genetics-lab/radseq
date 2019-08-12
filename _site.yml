@@ -68,7 +68,7 @@ navbar:
   - text: Contact
     href: contact.html
   - icon: fa-github fa-lg
-    href: https://github.com/ryanpeek/radseq
+    href: https://github.com/miller-genetics-lab/radseq_website
 output_dir: docs
 output:
   html_document:
