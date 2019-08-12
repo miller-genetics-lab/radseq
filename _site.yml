@@ -1,0 +1,85 @@
+navbar:
+  left:
+  - text: Home
+    icon: fa-home fa-1x
+    href: index.html
+    menu: 
+    - text: Background
+      icon: fa-info-circle  fa-1x
+      href: background.html
+  - text: HPC
+    icon: fa-sitemap  fa-1x
+    menu:
+    - text: Best practices
+      href: hpc_best_practices.html
+    - text: Using bash
+      icon: fa-terminal fa-1x
+      href: hpc_bash.html
+    - text: Using UCD Farm
+      href: hpc_farm.html
+    - text: Screen & tmux
+      href: hpc_screen_tmux.html
+    - text: VIM
+      href: hpc_vim.html
+    - text: sftp & scp
+      href: hpc_sftp_scp.html
+  - text: Sequence Data
+    icon: fa-database fa-1x
+    menu:
+      - text: Downloading data
+        href: seqdat_downloading.html
+      - text: Filetypes & Conversions
+        href: seqdat_filetypes.html
+      - text: Demultiplexing/Splitting
+        href: seqdat_splitting.html 
+  - text: Alignment
+    icon: fa-barcode fa-1x
+    menu:
+      - text: Alignment basics
+        href: alignment.html
+      - text: Merging sequences
+        href: align_merging_sequences.html
+  - text: de Novo Assembly
+    icon: fa-bars fa-1x
+    menu:
+    - text: Reference Assembly
+      href: denovo_reference.html
+    - text: 10X Assembly
+      href: denovo_10x.html
+  - text: Pop Gen Analyses
+    menu:
+    - text: Tools
+      href: popgen_tools.html
+    - text: PCA
+      href: pca.html
+    - text: Admixture
+      href: admixture.html
+    - text: F_st
+      href: FST.html
+    - text: ngsRelate
+      href: ngsCovar.html
+    - text: Colony
+      href: pipeline_colony.html
+  - text: Post-Analysis
+    menu:
+    - text: Uploading to NCBI
+      href: upload_ncbi.html
+  right:
+  - text: Contact
+    href: contact.html
+  - icon: fa-github fa-lg
+    href: https://github.com/ryanpeek/radseq
+output_dir: docs
+output:
+  html_document:
+    theme: yeti
+    highlight: pygments
+    code_folding: hide
+    toc: yes
+    toc_float:
+      collapsed: no
+    css: style.css
+    lib_dir: site_libs
+    self_contained: no
+name: radseq
+
